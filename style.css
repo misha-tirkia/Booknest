@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf4ea;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head {
+  color: #214255;
+  padding: 20px;
+  font-size: 40px;
+}
+
+
+.category {
+  display: grid;
+  grid-template-columns: repeat(6, auto); 
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.h22 {
+    color: #214255;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.english {
+  width: 130px;
+  height: 110px;
+  background-color: #ef977b;
+  color: white;
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.h2 {
+  color: #214255;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.biology {
+  width: 130px;
+  height: 110px;
+  background-color: #1a3f53;
+  color: white;
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  
+}
+
+
+.chemistry {
+  width: 130px;
+  height: 110px;
+  background-color: #3f7f76;
+  color: white;
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+.physics {
+  width: 130px;
+  height: 110px;
+  background-color: #9db3b9;
+  color: white;
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;        
+}
+
+
+.englisha, .biologya, .chemistrya, .physicsa {
+  text-decoration: none;
+  color: white;
+}
+
+
+.bio1, .bio2, .bio3, .bio4, .bio5{
+  width: 300px;
+  height: 320px;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+.bios {
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+
+.allbook {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+@media only screen and (max-width: 1024px){
+
+  .allbook {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bios {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+
+}
+
+
+@media screen and (max-width: 768px){
+
+.category {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin: auto;
+  padding: auto;
+}
+
+.bios {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+}
+  
+}
+
+
+@media screen and (max-width: 480px){
+  .allbook {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+}
